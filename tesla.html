@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <link rel="stylesheet" href="CSS/sytyles.css">
+    <link rel="stylesheet" href="CSS/grid.css">
+    <link
+        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+
     <title>Tesla</title>
 
     <style>
@@ -34,7 +38,7 @@
             <div class="columns is-mobile is-marginless heading has-text-weight-bold">
                 <div class="column left">
                     <figure class="navbar-item image" style="width: 6.25rem; height: 1rem;">
-                        <img src="images/logo.png" alt="">
+                        <img src="images/logo.png">
                     </figure>
                 </div>
 
@@ -42,13 +46,14 @@
                     <p class="navbar-item has-text-black">MODEL S</p>
                     <p class="navbar-item has-text-black">MODEL 3</p>
                     <p class="navbar-item has-text-black">MODEL x</p>
+                    <p class="navbar-item has-text-black">MODEL y</p>
                     <p class="navbar-item has-text-white">ROADSTER</p>
-                    <p class="navbar-item has-text-black">ENERGY</p>
+                    <p class="navbar-item has-text-black">SOLAR ROOF</p>
                 </div>
 
                 <div class="column right">
                     <p class="navbar-item desktop has-text-black">SHOP</p>
-                    <p class="navbar-item desktop has-text-black">SIGN IN</p>
+                    <p class="navbar-item desktop has-text-black">TESLA ACCOUNT</p>
                     <figure class="navbar-item image has-text-black center">
                         <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
                     </figure>
@@ -57,10 +62,40 @@
         </nav>
         <header class="hero-body">
             <div class="is-overlay has-text-centered single-spaced" style="top:82px;">
-                <h1 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h1>
                 <h2 class="title is-1 has-text-black">Roadster</h2>
             </div>
         </header>
+        <main class="hero-foot center" style="padding: 2rem;">
+            <div id="grid" style="width: 768px;">
+                <div id="a" class="center-column has-text-white">
+                    <p class="has-text-centered">
+                        The quickest car in the world, with record-setting<br> acceleration, range and performance.
+                    </p>
+                </div>
+                <div id="b" class="center-column">
+                    <P class="title has-text-white">
+                        <i class="fas fa-tachometer-alt has-text-grey-light" style="width: o.70em; height: 0.70em;"></i>
+                        1.9<span class="is-size-5">s</span>
+                    </P>
+                    <p class="subtitle has-text-white">0-60 mph</p>
+                </div>
+                <div id="c" class="center-column" style="border-left: 1px solid white">
+                    <p class="title has-text-white">
+                        <span class="is-size-5">+</span>
+                        250 <span class="is-size-5">mph</span>
+                    </p>
+                    <p class="subtitle is-7 has-text-white">Top Speed</p>
+                </div>
+                <div id="d" class="center-column" style="border-left: 1px solid white">
+                    <p class="title has-text-white">620<span class="is-size-5">mi</span></p>
+                    <p class="subtitle is-7 has-text-white">Mile Range</p>
+                </div>
+                <div id="e" class="center-column">
+                    <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold"
+                        style="width: 100%; border: 0.15em solid white;">Reserve Now</a>
+                </div>
+            </div>
+        </main>
     </section>
 </body>
 
